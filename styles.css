@@ -131,10 +131,13 @@ a {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  filter: grayscale(100%);
   display: block;
   overflow: hidden;
   margin: 16px 10px;
+}
+
+.author-avatar img:hover {
+  transform: scale(1.1);
 }
 
 .author-name {
